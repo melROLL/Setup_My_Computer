@@ -2,10 +2,10 @@
 
 # Update package lists
 sudo apt update
+sudo add-apt-repository --yes ppa:kicad/kicad-7.0-releases
 
-# Install VLC, htop, Git, VSCodium
-sudo apt install vlc htop gimp git -y
-
+# Install VLC, htop, kicad, gimp, Git, VSCodium
+sudo apt install vlc htop kicad gimp git -y
 
 sudo ubuntu-drivers autoinstall
 
@@ -45,6 +45,7 @@ sudo apt install code -y
 
 # Install GitHub Desktop
 # Add GitHub Desktop repository
+sudo apt install git -y
 sudo add-apt-repository --yes -u ppa:shiftkey/desktop
 
 # Install GitHub Desktop
